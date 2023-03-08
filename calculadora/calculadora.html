@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>operaciones</title>
+</head>
+<body>
+    <form id="calculadora" name="">
+        <label>Número 1:</label>
+        <input type="number" name="" id="valor1" autofocus placeholder="Agregue un valor númerico">
+        <button onclick="limpiar();">limpiar</button>
+
+        <br><br>
+
+        <label>Número 2:</label>
+        <input type="number" name="" id="valor2" autofocus placeholder="Agregue otro valor númerico">
+
+         <br><br><br>
+         
+         <button type="button" onclick="sumar();">sumar</button>
+         <button type="button" onclick="restar();">restar</button>
+         <button type="button" onclick="multiplicar();">multiplicar</button>
+         <button type="button" onclick="dividir();">dividir</button>
+
+        <p>El resultado es: <span id="resultado"></span></p>
+
+    </form>
+
+    <script src="./calculadorajs.js"></script>
+
+</body>
+</html>
